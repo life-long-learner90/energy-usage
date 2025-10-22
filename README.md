@@ -25,7 +25,7 @@ Convert the date to Unix format;
 Remove implausible temperature and humidity values.
 Finally, a unique id is created as a combination of column values, and the dataframe is passed to the insert_smartthings() method of the database handling class for ingestion.
 
-report_weather_vs_gas_usage.ipynb
+report gas_usage.ipynb
 The report explores two research questions:
 
 Is the temperature measured by the sensor significantly different from the temperature as reported by open-meteo?
